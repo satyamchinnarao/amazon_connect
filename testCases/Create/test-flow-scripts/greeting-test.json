@@ -1,0 +1,88 @@
+{
+  "Version": "2019-10-30",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "3da1a5b4-7316-4a95-8cdc-f59817e275a1": {
+        "position": {
+          "x": 91.2,
+          "y": 79.2
+        }
+      },
+      "be6badad-e1ed-44b8-848d-663aaeceeac4": {
+        "position": {
+          "x": 315.2,
+          "y": 79.2
+        }
+      }
+    },
+    "Annotations": [
+      {
+        "type": "cluster",
+        "id": "f3ef0ffe-1b31-4c5a-b4f1-461c6ae3dc81",
+        "content": "",
+        "actionId": "",
+        "isFolded": false,
+        "position": {
+          "x": 79.96542930603027,
+          "y": 35.19999980926514
+        },
+        "size": {
+          "width": 575,
+          "height": 273
+        },
+        "clusterProfile": {
+          "name": "Interaction 1",
+          "actionIds": [
+            "3da1a5b4-7316-4a95-8cdc-f59817e275a1",
+            "be6badad-e1ed-44b8-848d-663aaeceeac4"
+          ],
+          "style": "grid",
+          "clusterJunction": [],
+          "locked": true
+        }
+      }
+    ],
+    "StartAction": "",
+    "name": "POC Test Flow",
+    "description": "",
+    "initializationData": "",
+    "entryPoint": {
+      "ChatEntryPointParameters": null,
+      "Type": "VOICE_CALL",
+      "VoiceCallEntryPointParameters": {
+        "DestinationPhoneNumber": null,
+        "FlowId": "9d230164-95c8-48db-bf01-ab2f90e0792c",
+        "SourcePhoneNumber": null
+      }
+    }
+  },
+  "Observations": [
+    {
+      "Identifier": "Interaction 1",
+      "Event": {
+        "Type": "TestInitiated",
+        "Actor": "System",
+        "Identifier": "3da1a5b4-7316-4a95-8cdc-f59817e275a1",
+        "Properties": {}
+      },
+      "Actions": [
+        {
+          "Parameters": {
+            "ActionType": "TestControl",
+            "Command": {
+              "Type": "EndTest"
+            }
+          },
+          "Identifier": "be6badad-e1ed-44b8-848d-663aaeceeac4",
+          "Type": "TestControl",
+          "Transitions": {}
+        }
+      ],
+      "Transitions": {}
+    }
+  ]
+}

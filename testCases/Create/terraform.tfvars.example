@@ -1,0 +1,9 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and update with your values
+
+aws_instance_id       = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Your Amazon Connect instance ID
+test_case_name        = "Example Voice Test Case via CLI"
+test_case_description = "A test case created via the AWS CLI"
+content_file_path     = "file://test-flow-scripts/greeting-test.json"
+aws_region            = "us-east-1"
+flow_id               = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  # Your flow ID
