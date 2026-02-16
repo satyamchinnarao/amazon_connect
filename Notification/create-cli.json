@@ -1,2 +1,3 @@
 
-aws connect create-notification --instance-id 5db126a2-4936-4a89-a1dc-2965dd0a2361 --recipients '["arn:aws:connect:eu-central-1:585008081475:instance/5db126a2-4936-4a89-a1dc-2965dd0a2361/agent/304fb4c7-b707-47d5-9621-493dc1a6b086"]' --content '{"en_US": "This is a test high notification for Satyam"}' --priority HIGH
+
+aws connect create-notification --instance-id <id> --recipients '["arn1","arn2"]' --content '{"en_US": "This is a test high notification for Satyam"}' --priority HIGH
